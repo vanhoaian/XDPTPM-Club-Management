@@ -8,10 +8,6 @@ import vnua.k66cnpma.clubmanagement.dto.UserEventDTO;
 
 
 public interface EventService {
-//    Set<EventDTO> getAll();
-//    EventDTO getById(String id);
-//    void addEvent(EventDTO eventDTO);
-//	Set<EventDTO> getEventsByClubId(String clubId);
 	
 	List<EventDTO> findByClubId(String clubId);
 
